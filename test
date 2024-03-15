@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>WEB PAGE</title>
+
+    <style>
+
+    body
+
+    {
+
+         background-image:url("GEHU-Dehradun-1abd6f9c.jpg");
+
+    }
+
+        h1
+
+        {
+
+            color:yellow;
+
+            text-aligh:center;
+
+            padding:50px;
+
+            margin:30px;
+
+            border:5px solid black;
+
+            background-color:red; 
+
+        }
+
+        a:link{
+
+            color:green;
+
+            background-color:transparent;
+
+        }
+
+        a:visited{
+
+            color:pink;
+
+            background-color:transparent;
+
+        }
+
+        a:hover{
+
+            color:red;
+
+            background-color:transparent;https://www.onlinegdb.com/online_c_compiler#tab-stdin
+
+        }
+
+        a:active{
+
+            color:yellow;
+
+            background-color:transparent;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 text-aligh="center">COLLEGE IMFORMATION</h1> 
+
+<label>USERNAME:
+
+<input type="keywords" name="username" size="50">
+
+</label>
+
+<br>
+
+<br>
+
+<label>PASSWORD:
+
+<input type="password" name="password" maxlength="10">
+
+</label>
+
+<br>
+
+<br>
+
+<label>Gender:<input type="Radio" name="Gender" value="Male">Male
+
+              <input type="RAdio" name="Gender" value="Female">Female
+
+              </label>
+
+              <br>
+
+              <br>
+
+Choose programming language you know:<br>
+
+<ol>
+
+    <li><input type="checkbox" name="programm" value="C">C</li>
+
+    <li><input type="checkbox" name="programm" value="C++">C++</li>
+
+    <li><input type="checkbox" name="programm" value="JAVA">JAVA</li>
+
+    <li><input type="checkbox" name="programm" value="PHP">PHP</li>
+
+    <li><input type="checkbox" name="programm" value="DSA">DSA</li>
+
+</ol>
+
+<br>
+
+Choose your favourite subject:<br>
+
+<select name="dropdown">
+
+    <option value="OS">OS</option>
+
+    <option value="DBMS">DBMS</option>
+
+    <option value="CSA">CSA</option>
+
+    <option value="DATA STRUCTURE">DATA STRUCTURE</option>
+
+</select>
+
+<br>
+
+<br>
+
+<label>Subject Information:</label><br>
+
+<table border="1">
+
+    <tr>
+
+        <th>Value</th>
+
+        <th>Suject</th>
+
+        <th>Teacher</th>
+
+        <th>Course duration</th>
+
+    </tr>
+
+    <tr>
+
+        <td>1</td>
+
+        <td>OS</td>
+
+        <td>Mukesh kumar</td>
+
+        <td>3 month</td>
+
+    </tr>
+
+    <tr>
+
+        <td>2</td>
+
+        <td>C</td>
+
+        <td>Anmol singh</td>
+
+        <td>4 month</td>
+
+    </tr>
+
+    <tr>
+
+        <td>3</td>
+
+        <td>C++</td>
+
+        <td>Sushant singh</td>
+
+        <td>4 month</td>
+
+    </tr>
+
+    <tr>
+
+        <td>4</td>
+
+        <td>JAVA</td>
+
+        <td>Khshboo</td>
+
+        <td>5 month</td>
+
+    </tr>
+
+    <tr>
+
+        <td>5</td>
+
+        <td>HTML</td>
+
+        <td> Dr Shushella </td>
+
+        <td>3 month</td>
+
+    </tr>
+
+    <tr>
+
+        <td>6</td>
+
+        <td>DSA</td>
+
+        <td>Dr Rakesh patra</td>
+
+        <td>6 month</td>
+
+    </tr>
+
+</table>
+
+<br>
+
+<br>
+
+<label>Description:</label><br>
+
+<textarea row="20" col="100">
+
+    Enter description here...
+
+</textarea>
+
+<br>
+
+<br>
+
+If you want more information please visit:<br>
+
+<nav>
+
+ <a href="/html/">www.information.com</a>   
+
+</nav>
+
+<br>
+
+Do you want to receive notification?<br>
+
+<button>Submit</button>
+
+
+
+</body>
+
+</html>
